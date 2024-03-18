@@ -8,5 +8,6 @@ export class AuthService {
 
   isAuthenticated() {
     return localStorage.getItem('tokens');
+    // return true;
   }
 }
